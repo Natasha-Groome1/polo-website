@@ -22,11 +22,9 @@ function ContactForm() {
                 </Form.Field>
                 <Form.TextArea label='Enquiry'
                 placeholder='Tell us more...' />
-                <Button type='submit' color="blue">Submit</Button>
+                <Button type='submit' color="black">Submit</Button>
             </Form>
         </div>
     )
 }
 export default ContactForm;
-
-// How to get first name etc back to the left 
