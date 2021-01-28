@@ -22,7 +22,7 @@ function ContactForm() {
                 </Form.Field>
                 <Form.TextArea label='Enquiry'
                 placeholder='Tell us more...' />
-                <Button type='submit' color="black">Submit</Button>
+                <Button type='submit' color="blue">Submit</Button>
             </Form>
         </div>
     )
