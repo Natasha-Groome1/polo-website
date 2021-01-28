@@ -5,7 +5,7 @@ function NavigationBar() {
 
     return (
       <Menu pointing secondary>
-             <Menu.Item icon="home" name='home' href="/Home"/>
+             <Menu.Item icon="home" name='test' href="/Home"/>
             <Menu.Item icon="about" name='about' href="/About"/>
             <Menu.Item icon="polo lessons" name='polo lessons' href="/PoloLessons"/>
             <Menu.Item icon="experience days" name='experience days' href="/ExperienceDays"/>
