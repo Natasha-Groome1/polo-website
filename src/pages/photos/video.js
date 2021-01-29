@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './background-video2.mp4';
+import Video from '/Users/natashagroome/dev/stomp-the-divots/src/pages/resources/background-video2.mp4';
 
 console.log(Video); 
 
