@@ -31,7 +31,3 @@ function App() {
 }
 
 export default App;
-
-
-// How do I get this on GITHUB to work on my personal computer?
-

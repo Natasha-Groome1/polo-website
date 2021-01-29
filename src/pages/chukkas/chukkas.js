@@ -4,6 +4,7 @@ import NavigationBar from '../navigation/navigation.js';
 import Images from '../photos/images.js';
 
 
+
 function Chukkas() {
     return(
         <div className="Chukkas">
