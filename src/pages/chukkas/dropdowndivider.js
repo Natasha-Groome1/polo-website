@@ -4,7 +4,7 @@ import { Dropdown, Menu } from 'semantic-ui-react'
 const DropdownOption = () => (
   <Menu vertical>
     <Menu.Item>Chukkas 2021</Menu.Item>
-    <Dropdown text='Month' pointing='left' className='link item'>
+    <Dropdown text='Month' pointing='left' className='link item' >
       <Dropdown.Menu>
         <Dropdown.Item href='/January' >January</Dropdown.Item>
         <Dropdown.Item href='/February' >February</Dropdown.Item>
