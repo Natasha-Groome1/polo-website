@@ -6,12 +6,11 @@ console.log(Video);
 function Header() {
   return <video 
   src={Video} alt="Background" 
-  width="1000" 
-  height="500" 
+  className="Welcomevideo"
+  width="100%"
+  height="50%"
   loop= "true"
-  autoPlay muted />;
-  
-  
+  autoPlay muted />
 }
 
-export default Header;
+export default Header

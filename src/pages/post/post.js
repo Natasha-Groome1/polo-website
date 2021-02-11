@@ -9,10 +9,12 @@ function Posts() {
                  {posts.map(post =>
                     <Grid.Column key={post.title}>
                         <Segment>
-                            <Image src={post.image} />
-                            <Header as="h1">{post.title}</Header>
+                            <Image src={post.image} centered/>
+                            <Header as="h1" textAlign="center" >{post.title}</Header>
                             <p>{post.excerpt}</p>
-                            <Button type="Learn more" href="/Home" font="black" background="white"> Learn more </Button> 
+                        <Segment basic textAlign={"center"}>
+                            <Button type="Learn more" href={post.url} color="black" style={{textAlign: "center"}}> Learn more </Button> 
+                        </Segment>
                         </Segment>
                     </Grid.Column>)}
             </Grid>
@@ -21,3 +23,4 @@ function Posts() {
     )
 }
 export default Posts;
+

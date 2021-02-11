@@ -22,5 +22,5 @@ function NavigationBar() {
 }
 export default NavigationBar;
 
-// How do I get Contact and Book Now on the same line as the logo?
-// How do I go to another page for each section?
+
+

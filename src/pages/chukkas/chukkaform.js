@@ -1,11 +1,11 @@
 import React from 'react'
 import { Button, Form, Segment, Header } from 'semantic-ui-react'
 
-function ContactForm() {
+function ChukkaForm() {
     return (
         <div className="form">
             <Segment>
-                <Header as="h2" textAlign="center" >Contact Us</Header>
+                <Header as="h2" textAlign="center">Fill out form</Header>
             </Segment>
             <Form>
                 <Form.Field>
@@ -20,13 +20,13 @@ function ContactForm() {
                     <label> Email Address</label>
                     <input placeholder= 'Email Address' />
                 </Form.Field>
-                <Form.TextArea label='Enquiry'
-                placeholder='Tell us more...' />
-            <Segment basic textAlign={"center"}>
-                <Button type='submit' color="black" style={{textAlign: "center"}}>Submit</Button>
-            </Segment>
+                <Form.TextArea label='Level'
+                placeholder='Tell us what level you play at...' />
             </Form>
+                <Segment basic textAlign={"center"}>
+                <Button className="chukkaSubmit" type='submit' color="black" style={{textAlign: "center"}}>Submit</Button>
+                </Segment>
         </div>
     )
 }
-export default ContactForm;
+export default ChukkaForm; 
