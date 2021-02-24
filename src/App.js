@@ -38,4 +38,8 @@ function App() {
 
 export default App;
 
-// How do I get the background of the main website to change from white?
+// 2 things with Harry
+// How do I get the background of the main website to change from white? This is style confusing me
+// The route to get January etc. working just isn't happening for me 
+
+// Also thinking if you could give me some goals to look doing to the page?
