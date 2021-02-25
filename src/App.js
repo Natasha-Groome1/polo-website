@@ -7,6 +7,7 @@ import Contact from './pages/contact/contact';
 import ExperienceDays from './pages/experiencedays/experiencedays';
 import Home from './pages/home/home';
 import Merchandise from './pages/merchandise/merchandise';
+import Months from './pages/months/Months';
 import PoloLessons from './pages/pololessons/pololessons';
 import PoloLivery from './pages/pololivery/pololivery';
 import Sponsorship from './pages/sponsorship/sponsorship';
@@ -25,12 +26,7 @@ function App() {
         <Route path='/chukkas' component={Chukkas} />
         <Route path='/contact' component={Contact} />
         <Route path='/booknow' component={BookNow} />
-        <Route path='/January' component={DropdownOption} />
-        <Route path='/February' component={DropdownOption} />
-        <Route path='/March' component={DropdownOption} />
-        <Route path='/April' component={DropdownOption} />
-        <Route path='/May' component={DropdownOption} />
-        <Route path='/June' component={DropdownOption} />
+        <Route path='/month/:nameofmonth' component={Months} />
       </Switch>
     </Router>
   )
