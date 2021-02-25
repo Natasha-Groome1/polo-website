@@ -9,6 +9,7 @@ function About() {
     return(
         <div className="About">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <ContactForm />
       <Divider hidden />

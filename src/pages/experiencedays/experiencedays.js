@@ -9,6 +9,7 @@ function ExperienceDays() {
     return(
         <div className="ExperienceDays">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <ContactForm />
       <Divider hidden />

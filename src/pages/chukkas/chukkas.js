@@ -10,6 +10,7 @@ function Chukkas() {
     return(
         <div className="Chukkas">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <Dropdown />
       <ChukkaForm />

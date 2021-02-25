@@ -9,6 +9,7 @@ function Sponsorship() {
     return(
         <div className="Sponsorship">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <ContactForm />
       <Divider hidden />

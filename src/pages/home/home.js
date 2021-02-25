@@ -14,6 +14,7 @@ function Home() {
   return (
     <div className="App">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <Header className="Welcome" size="huge">Over 25 Years of Experience...</Header>
       <Video /> 

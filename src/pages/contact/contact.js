@@ -10,6 +10,7 @@ function Contact() {
     return(
         <div className="Contact">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <GridTeam />
       <ContactForm />

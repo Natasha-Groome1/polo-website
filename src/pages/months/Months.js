@@ -10,6 +10,7 @@ const Months = ( { match } ) => {
     return(
       <div>
         <Images /> 
+        <h1>{"J F Polo Academy"}</h1>
         <NavigationBar />
         <h1>{month}</h1>
         <Dropdown />

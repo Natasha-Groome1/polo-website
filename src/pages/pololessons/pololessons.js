@@ -9,6 +9,7 @@ function PoloLessons() {
     return(
         <div className="PoloLessons">
       <Images /> 
+      <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <ContactForm />
       <Divider hidden />
