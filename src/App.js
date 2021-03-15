@@ -1,8 +1,7 @@
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import About from './pages/about/about';
 import BookNow from './pages/booknow/booknow';
 import Chukkas from './pages/chukkas/chukkas';
-import DropdownOption from './pages/chukkas/dropdowndivider';
 import Contact from './pages/contact/contact';
 import ExperienceDays from './pages/experiencedays/experiencedays';
 import Home from './pages/home/home';

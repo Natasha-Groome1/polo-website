@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/public/polobackground.jpeg");
 }
 
 code {
@@ -109,3 +110,10 @@ code {
   padding: 2rem;
   text-align: center;
 }
+
+@import '../src/pages/photos/video.scss';
+
+@import '../src/pages/contact/meettheteam.scss';
+
+@import '../src/pages/months/Months.scss';
+

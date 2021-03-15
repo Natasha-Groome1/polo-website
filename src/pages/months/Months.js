@@ -8,8 +8,8 @@ const Months = ( { match } ) => {
   const month = match.params[`nameofmonth`]
 
     return(
-      <div>
-        <Images /> 
+      <div className= "Months" >
+        <Images/> 
         <h1>{"J F Polo Academy"}</h1>
         <NavigationBar />
         <h1>{month}</h1>

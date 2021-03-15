@@ -9,10 +9,9 @@ import WelcomeInfo from './info';
 import ButtonSocial from '../socialmedia/socialmedia';
 import {Divider} from 'semantic-ui-react';
 
-
 function Home() {
   return (
-    <div className="App">
+    <div className="App" >
       <Images /> 
       <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
@@ -31,4 +30,3 @@ function Home() {
 
 export default Home;
 
-// Implement Social media buttons here

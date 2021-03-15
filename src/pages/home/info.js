@@ -3,7 +3,7 @@ import { Container, Divider } from "semantic-ui-react";
 
 const WelcomeInfo = () => (
   <div>
-    <Container textAlign="centre" >
+    <Container textAlign="center" >
       <Divider />
       <p>
         J F Polo Academy offers polo tuition to all levels of rider and player, 
