@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Menu } from 'semantic-ui-react'
 
 function NavigationBar() {
@@ -6,15 +6,15 @@ function NavigationBar() {
     return (
       <Menu pointing secondary>
              <Menu.Item icon="home" name='home' href="/Home"/>
-            <Menu.Item icon="about" name='about' href="/About"/>
-            <Menu.Item icon="polo lessons" name='polo lessons' href="/PoloLessons"/>
-            <Menu.Item icon="experience days" name='experience days' href="/ExperienceDays"/>
-            <Menu.Item icon="polo livery" name='polo livery' href="/PoloLivery"/>
-            <Menu.Item icon="sponsorship" name='sponsorship' href="/Sponsorship"/>
-            <Menu.Item icon="merchandise" name='merchandise' href="/Merchandise"/>
-            <Menu.Item icon="chukkas" name='chukkas' href="/Chukkas"/>
+            <Menu.Item icon="user" name='about' href="/About"/>
+            <Menu.Item icon="calendar alternate" name='polo lessons' href="/PoloLessons"/>
+            <Menu.Item icon="calendar" name='experience days' href="/ExperienceDays"/>
+            <Menu.Item icon="point" name='polo livery' href="/PoloLivery"/>
+            <Menu.Item icon="handshake" name='sponsorship' href="/Sponsorship"/>
+            <Menu.Item icon="shopping basket" name='merchandise' href="/Merchandise"/>
+            <Menu.Item icon="trophy" name='chukkas' href="/Chukkas"/>
             <Menu.Item icon="address book" name='contact' href="/Contact"/>
-            <Menu.Item icon="book now" name='book now' href="/BookNow"/> 
+            <Menu.Item icon="book" name='book now' href="/BookNow"/> 
 
         </Menu>
         
@@ -22,5 +22,5 @@ function NavigationBar() {
 }
 export default NavigationBar;
 
-// How do I get Contact and Book Now on the same line as the logo?
-// How do I go to another page for each section?
+
+

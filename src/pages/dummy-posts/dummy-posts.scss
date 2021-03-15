@@ -1,9 +1,8 @@
-.posts {
-    align-content: center;
-    vertical-align: middle;
-    position: relative;
-}
-
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .form,.posts{
     margin-top: 3rem;
     

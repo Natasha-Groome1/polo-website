@@ -5,7 +5,7 @@ function ContactForm() {
     return (
         <div className="form">
             <Segment>
-                <Header as="h2">Contact Us</Header>
+                <Header as="h2" textAlign="center" >Contact Us</Header>
             </Segment>
             <Form>
                 <Form.Field>
@@ -22,7 +22,9 @@ function ContactForm() {
                 </Form.Field>
                 <Form.TextArea label='Enquiry'
                 placeholder='Tell us more...' />
-                <Button type='submit' color="black">Submit</Button>
+            <Segment basic textAlign={"center"}>
+                <Button type='submit' color="black" style={{textAlign: "center"}}>Submit</Button>
+            </Segment>
             </Form>
         </div>
     )

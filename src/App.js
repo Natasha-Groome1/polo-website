@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import About from './pages/about/about';
 import BookNow from './pages/booknow/booknow';
 import Chukkas from './pages/chukkas/chukkas';
@@ -6,10 +6,10 @@ import Contact from './pages/contact/contact';
 import ExperienceDays from './pages/experiencedays/experiencedays';
 import Home from './pages/home/home';
 import Merchandise from './pages/merchandise/merchandise';
+import Months from './pages/months/Months';
 import PoloLessons from './pages/pololessons/pololessons';
 import PoloLivery from './pages/pololivery/pololivery';
 import Sponsorship from './pages/sponsorship/sponsorship';
-
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
         <Route path='/chukkas' component={Chukkas} />
         <Route path='/contact' component={Contact} />
         <Route path='/booknow' component={BookNow} />
+        <Route path='/month/:nameofmonth' component={Months} />
       </Switch>
     </Router>
   )
@@ -32,6 +33,8 @@ function App() {
 
 export default App;
 
+// 2 things with Harry
+// How do I get the background of the main website to change from white? This is style confusing me
+// The route to get January etc. working just isn't happening for me 
 
-// How do I get this on GITHUB to work on my personal computer?
-
+// Also thinking if you could give me some goals to look doing to the page?

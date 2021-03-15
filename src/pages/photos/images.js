@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './jflogo.png'; 
-
-console.log(logo); 
+import logo from '/Users/natashagroome/dev/stomp-the-divots/src/pages/resources/jflogo.png';
 
 function Header() {
   return <img
