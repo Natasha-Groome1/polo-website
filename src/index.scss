@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/public/polobackground.jpeg");
 }
 
 code {
@@ -117,3 +116,8 @@ code {
 
 @import '../src/pages/months/Months.scss';
 
+.NavigationBar{
+  max-width: 1500px;
+  text-align: center;
+  margin: 0 auto;
+}

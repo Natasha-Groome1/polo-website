@@ -33,8 +33,6 @@ function App() {
 
 export default App;
 
-// 2 things with Harry
-// How do I get the background of the main website to change from white? This is style confusing me
-// The route to get January etc. working just isn't happening for me 
+// Things with Harry
+// How to get NavBar to fit whole width
 
-// Also thinking if you could give me some goals to look doing to the page?

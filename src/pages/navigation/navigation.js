@@ -4,7 +4,7 @@ import { Menu } from 'semantic-ui-react'
 function NavigationBar() {
 
     return (
-      <Menu pointing secondary>
+      <Menu pointing secondary className="NavigationBar" >
              <Menu.Item icon="home" name='home' href="/Home"/>
             <Menu.Item icon="user" name='about' href="/About"/>
             <Menu.Item icon="calendar alternate" name='polo lessons' href="/PoloLessons"/>

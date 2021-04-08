@@ -18,10 +18,11 @@ body {
  }
   
   .App {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    background-image: url('/src/pages/resources/polobackground2.jpeg');
  }
   
   .form,.posts{
@@ -34,73 +35,91 @@ body {
 }
   
   .About {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
   .PoloLessons{
-        max-width: 1200px;
+        max-width: 1500px;
         margin: 0 auto;
         padding: 2rem;
         text-align: center;
+        background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .ExperienceDays {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .PoloLivery {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .Sponsorship {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .Merchandise {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .Chukkas {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .Contact {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .BookNow {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
 }
 
 .Months{
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('/src/pages/resources/polobackground2.jpeg');
   
 }
 
+.NavigationBar{
+  max-width: 1500px;
+  margin: 0 ;
+  text-align: center;
+  padding: 0;
+  display: flex !important;
+  justify-content: space-around !important;
+}
