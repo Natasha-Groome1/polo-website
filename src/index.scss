@@ -1,123 +1,137 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.posts{
+.posts {
   text-align: center;
-  
 }
 
-.App {
+.app {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.form,.posts{
+.form,
+.posts {
   margin-top: 3rem;
-  
 }
 
 .form {
   text-align: left;
 }
 
-.About {
+.about {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.PoloLessons {
+.poloLessons {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.ExperienceDays {
+.experienceDays {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.PoloLivery {
+.poloLivery {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.Sponsorship {
+.sponsorship {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.Merchandise {
+.merchandise {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.Chukkas {
+.chukkas {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.Contact {
+.contact {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.BookNow {
+.bookNow {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.meettheteam{
+.meettheteam {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.Months{
+.months {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-@import '../src/pages/photos/video.scss';
+@import "../src/pages/photos/video.scss";
 
-@import '../src/pages/contact/meettheteam.scss';
+@import "../src/pages/contact/meettheteam.scss";
 
-@import '../src/pages/months/Months.scss';
+@import "../src/pages/months/months.scss";
 
-.NavigationBar{
+@import "../src/pages/months/content.scss";
+
+.navigationBar {
   max-width: 1500px;
   text-align: center;
   margin: 0 auto;
+}
+
+.welcomeInfo {
+  max-width: 1500px;
+  text-align: center;
+}
+
+.content {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }

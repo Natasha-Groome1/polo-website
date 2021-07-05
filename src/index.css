@@ -1,53 +1,52 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-}
-  
-  .posts{
-    text-align: center;
-    
- }
-  
-  .App {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    background-image: url('/src/pages/resources/polobackground2.jpeg');
- }
-  
-  .form,.posts{
-    margin-top: 3rem;
-    
- }
-  
-  .form {
-    text-align: left;
-}
-  
-  .About {
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    background-image: url('/src/pages/resources/polobackground2.jpeg');
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-  .PoloLessons{
-        max-width: 1500px;
-        margin: 0 auto;
-        padding: 2rem;
-        text-align: center;
-        background-image: url('/src/pages/resources/polobackground2.jpeg');
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.posts {
+  text-align: center;
+}
+
+.App {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
+}
+
+.form,
+.posts {
+  margin-top: 3rem;
+}
+
+.form {
+  text-align: left;
+}
+
+.About {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
+}
+
+.PoloLessons {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .ExperienceDays {
@@ -55,7 +54,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .PoloLivery {
@@ -63,7 +62,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .Sponsorship {
@@ -71,7 +70,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .Merchandise {
@@ -79,7 +78,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .Chukkas {
@@ -87,7 +86,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .Contact {
@@ -95,7 +94,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
 .BookNow {
@@ -103,23 +102,42 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
-.Months{
+.months {
   max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/src/pages/resources/polobackground2.jpeg');
-  
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }
 
-.NavigationBar{
+.NavigationBar {
   max-width: 1500px;
-  margin: 0 ;
+  margin: 0;
   text-align: center;
   padding: 0;
   display: flex !important;
   justify-content: space-around !important;
+}
+
+.WelcomeInfo {
+  max-width: 1500px;
+  text-align: center;
+}
+
+.Feedback {
+  padding: 2rem;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("/src/components/atoms/resources/polobackground2.jpeg");
 }

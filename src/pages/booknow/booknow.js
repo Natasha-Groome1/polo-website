@@ -1,23 +1,23 @@
-import React from 'react';
-import ContactForm from '../form/contact.js';
-import NavigationBar from '../navigation/navigation.js';
-import Images from '../photos/images.js';
-import ButtonSocial from '../socialmedia/socialmedia';
-import {Divider} from 'semantic-ui-react';
+import React from "react";
+import ContactForm from "../../components/organisms/forms/form/contact.js";
+import NavigationBar from "../../components/organisms/navigation/navigation.js";
+import Images from "../../components/atoms/photos/imageslogo";
+import ButtonSocial from "../../components/atoms/socialmedia/socialmedia";
+import { Divider } from "semantic-ui-react";
 
-function BookNow() {
-    return(
-        <div className="BookNow">
-      <Images /> 
+function bookNow() {
+  return (
+    <div className="BookNow">
+      <Images />
       <h1>{"J F Polo Academy"}</h1>
       <NavigationBar />
       <ContactForm />
       <Divider hidden />
       <ButtonSocial />
       <Divider hidden />
-      <Images /> 
+      <Images />
     </div>
   );
 }
 
-export default BookNow;
+export default bookNow;
